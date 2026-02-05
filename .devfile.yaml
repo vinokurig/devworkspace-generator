@@ -39,3 +39,14 @@ commands:
         --output-file:/tmp/devworkspace-che-code-latest.yaml \
         --injectDefaultComponent:true \
         --defaultComponentImage:registry.access.redhat.com/ubi8/openjdk-11:latest
+  - id: instll-yarn4
+    exec:
+      label: "4. Install yarn v4"
+      component: builder
+      workingDir: ${PROJECTS_ROOT}/devworkspace-generator
+      commandLine: |
+        corepack enable
+        echo -e "Y" | yarn --version
+events:
+  postStart:
+    - instll-yarn4
