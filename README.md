@@ -96,3 +96,5 @@ The output file `devworkspace-che-code-latest.yaml` contains a DevWorkspace base
 If the DevWorkspace engine is installed on the cluster, the following command will create a DevWorkspace:
 
 `$ kubectl apply -f /tmp/devworkspace-che-code-latest.yaml`
+
+
