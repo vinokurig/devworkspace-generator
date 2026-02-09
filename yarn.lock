@@ -401,7 +401,7 @@ __metadata:
   dependencies:
     "@devfile/api": "npm:2.3.0-1757407014"
     "@types/jest": "npm:^30.0.0"
-    "@types/node": "npm:^25.0.3"
+    "@types/node": "npm:^25.2.2"
     axios: "npm:^1.13.1"
     eslint: "npm:^9.5.0"
     fs-extra: "npm:^11.2.0"
@@ -1354,7 +1354,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/node@npm:*, @types/node@npm:^25.0.3":
+"@types/node@npm:*, @types/node@npm:^25.2.2":
   version: 25.2.2
   resolution: "@types/node@npm:25.2.2"
   dependencies:
