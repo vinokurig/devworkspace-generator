@@ -25,7 +25,7 @@ jobs:
           fetch-depth: 0
           persist-credentials: false
       - name: Check dependencies usage restrictions
-        run: corepack enable && docker run --rm -t -v ${PWD}/:/workspace/project quay.io/che-incubator/dash-licenses:next --check
+        run: docker run --rm -t -v ${PWD}/:/workspace/project quay.io/ivinokur/dash-licenses:next --check
 
   unit-tests:
     runs-on: ubuntu-22.04
